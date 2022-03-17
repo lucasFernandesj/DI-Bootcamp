@@ -1,0 +1,148 @@
+.container{
+    display: flex;
+}
+.login{
+    display: flex;
+    height: 97vh ;
+    width: 50vw;
+    background-color:white;
+    justify-content: center;
+}
+
+.login-header{
+    font-family: fantasy;
+    position: absolute;
+    top: 70px;
+}
+.input{
+    height: 30px;
+    width: 270px;
+    position: absolute;
+    top: 170px;
+    left: 200px;
+}
+.input-password{
+    height: 30px;
+    width: 270px;
+    position: absolute;
+    top: 230px;
+    left: 200px;
+}
+.remember{
+    color: gray;
+    margin-top: 300px;
+}
+.checkbox{
+    margin-left: 20px;
+    
+}
+p > a{
+    margin-left: 60px;
+    text-decoration: none;
+
+}
+a:visited{
+    color: gray
+}
+
+.btn{
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 35px;
+    width: 300px;
+    background-color: rgb(156,39,176);
+    color: white;
+}
+.wrap{
+    display: flex;
+    position: absolute;
+    top: 420px;
+    width: 330px;
+    margin-left: 20px;
+}
+.left{
+    width: 25%;
+}
+
+
+
+.right{
+width: 25%;
+}
+
+.pics-container{
+   display: flex;
+   position: absolute;
+   top: 450px;
+   
+}
+.img-container{
+    width: 30px;
+    height: 30px;
+    
+    margin: 10px;
+}
+.linkedin{
+     width: 55px;
+    height: 55px;
+   
+    
+}
+.login-footer{
+    position: absolute;
+    top: 550px;
+}
+
+
+
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh ;
+    width: 50vw;
+    background-image: linear-gradient(to bottom right, rgb(35,33,47), rgb(150,39,170));
+}
+.add-img{
+    
+    top: 70px;
+    
+    height: 190px;
+    width: 190px;
+    margin-left: 40px;
+}
+
+.hello{
+    font-size: 3em;
+    font-weight: bolder;
+    color: white;
+    
+    margin-left: 26px;
+}
+
+.text{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.register-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.register-btn{
+    margin-top: 10px;
+    margin-left: 60px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}

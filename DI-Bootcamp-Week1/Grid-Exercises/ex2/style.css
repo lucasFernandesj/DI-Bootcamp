@@ -1,0 +1,74 @@
+
+
+.container{
+    display: grid;
+    grid-template-rows: repeat( 10,50px);
+    grid-template-columns: repeat(10, 50px);
+    
+    grid-gap: 20px 10px;
+    margin-left: 350px;
+    
+   
+    
+    
+}
+.header{
+background-color: aqua;
+grid-row: 1;
+grid-column: 1/10;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.hero{
+    background-color: darkmagenta;
+grid-row: 2/4;
+grid-column: 1/4 ;
+}
+.main-content{
+    background-color: orange;
+ grid-row: 2/6;
+ grid-column: 4/10;
+}
+.side-bar{
+    background-color: chartreuse;
+    grid-row: 4/7;
+    grid-column: 1/4;
+}
+.extra-content{
+    background-color: gray;
+    grid-row: 6/7;
+    grid-column: 4/10;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.related-images{
+    background-color: darkgreen;
+    grid-row: 7/9;
+    grid-column: 1/7;
+}
+.related-posts{
+    background-color: pink;
+    grid-row: 7/9;
+    grid-column:7/10 ;
+
+}
+.footer{
+background-color: darkgoldenrod;
+grid-row: 9/10;
+grid-column: 1/10;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+
+

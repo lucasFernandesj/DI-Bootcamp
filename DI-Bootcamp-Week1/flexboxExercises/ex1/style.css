@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    border: 3px solid red;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: aqua;
+    width: 99%;
+   
+    margin: 5px;
+
+}
+.one{
+    height: 20vh;
+   
+}
+.two{
+   width: 80%;
+  height: 40%;
+}
+.three{
+height: 20%;
+
+}
+
+p{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}

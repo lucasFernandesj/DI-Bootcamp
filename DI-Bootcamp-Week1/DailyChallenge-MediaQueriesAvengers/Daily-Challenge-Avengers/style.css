@@ -1,0 +1,226 @@
+/* MOBILE */
+@media only screen and (max-width:768px){
+
+    body{
+        background-image: url('./media/CaptainAmericaBgc.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0px;
+        margin: 0;
+        
+    }
+    
+    .nav{
+        width: 100%;
+        margin-top: 0px;
+        border: 0px;
+        padding: 8px;
+        height:10px;
+        background-image: linear-gradient(to right, rgb(43,5,7) ,rgb(113,114,118), rgb(9,15,43));
+        opacity: 0.7;
+        
+        
+    }
+    
+    
+    .menu-content{
+        
+        color: white;
+        position: absolute;
+        background-image: linear-gradient(to right, rgb(43,5,7) ,rgb(52,6,11));
+        min-width: 80px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+        position: absolute;
+        top: 29px;
+        left: 20px;
+        
+    }
+    a:visited{ 
+        color: inherit; 
+        
+    }
+    
+    .hidden{
+        display: none;
+        
+    }
+    .dotLess{
+        list-style: none;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 12px;
+        padding: 0px;
+    }
+    nav img{
+        height: 25px;
+        width: 25px;
+        animation-name: spin;
+        animation-duration: 3500ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; 
+        position: absolute;
+        top: 1px;
+        
+    }
+    .header{
+        
+        height: 30px;
+        width: 30px;
+    }
+    .header a{
+        overflow: hidden;
+    max-width: 100px
+    }
+    .headerMobile{
+        width: 400px;
+        height: 30px;
+        font-size: 45px;
+        position: absolute;
+        top: 15px;
+        left: 60px;
+    }
+    
+    
+    .p{
+    top: 80px;
+    padding: 20px;
+    position: absolute;
+    /* margin-left: 180px;
+    margin-right: 500px; */
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+    float: right;
+    
+    
+}
+
+.captainAmericaImg{
+    margin-top: 190px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+}
+/* DESKTOP */
+@media only screen and (min-width:768px){
+
+    body{
+        background-image: url('./media/CaptainAmericaBgc.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0px;
+        margin: 0;
+        max-width: 100%;
+        overflow: hidden
+    }
+    
+    .nav{
+        width: 100%;
+        margin-top: 0px;
+        border: 0px;
+        padding: 8px;
+        height:43px;
+        background-image: linear-gradient(to right, rgb(43,5,7) ,rgb(113,114,118), rgb(9,15,43));
+        opacity: 0.7;
+        
+        
+    }
+    
+    
+    
+    .menu-content{
+        
+        color: white;
+        position: absolute;
+        background-image: linear-gradient(to right, rgb(43,5,7) ,rgb(52,6,11));
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        
+        
+        
+        
+}
+a:visited{ 
+    color: inherit; 
+    
+}
+
+.hidden{
+    display: none;
+    
+}
+
+.dotLess{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    padding: 0px;
+}
+
+
+nav img{
+    height: 50px;
+    width: 50px;
+    animation-name: spin;
+    animation-duration: 3500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+.header{
+    margin-left: 460px;
+    margin-top: 30px;
+}
+
+
+.p{
+    width: 200px;
+    padding: 20px;
+    margin-left: 180px;
+    margin-right: 500px;
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+    float: right;
+    
+    
+}
+
+.captainAmericaImg{
+    float: left;
+    height: 400px;
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 30px;
+    
+}
+
+.center{
+    display: flex;
+}
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+}

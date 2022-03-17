@@ -1,0 +1,17 @@
+.center{
+    text-align: center;
+}
+
+.img{
+    display: flex;
+
+}
+
+
+.cat{
+    width: 950px;
+    height: 400px;
+    display: block;
+    margin: auto;
+
+}

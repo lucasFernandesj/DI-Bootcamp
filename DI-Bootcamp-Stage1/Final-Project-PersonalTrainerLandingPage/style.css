@@ -1,0 +1,254 @@
+
+
+
+body{
+    display: flex;
+    padding: 0px;
+    margin: 0;
+    flex-direction: column;
+    background-color: rgb(245, 241, 241);
+    overflow-x: hidden;
+    max-width: 100%;
+
+}
+
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+
+}
+
+.nav{
+    width: 100%;
+    margin-top: 0px;
+    border: 0px;
+    padding: 8px;
+    height:43px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    background-color: black;
+
+}
+
+.form-nav{
+     position: relative;
+     
+}
+.img-form{
+    position: absolute;
+    margin-top: 8px;
+    left: 0px;
+    padding: 5px;
+    margin-bottom: 3px;
+    margin-left: 290px;
+}
+
+.span-nav{
+    margin: 5px;
+    color: white;
+    font-size: 2.1em;
+    font-family: 'League Gothic';
+     font-style: italic;
+}
+.span-nav:hover{
+    text-decoration: underline;
+     text-decoration-color:rgb(59,96,255);
+     cursor: pointer;
+}
+.txt-nav{
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    width: 300px;
+    height: 20px;
+    margin-top: 8px;
+    
+    
+}
+
+.img-nav{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+a:visited{ 
+    color: inherit; 
+    
+ }
+
+ p.pics{
+     display: inline-block;
+     height: 500px;
+     width: 150px;
+     background-color: rgb(245,245,245);
+
+ }
+
+ .span-pics{
+    font-weight: bold;
+    font-size: 1.45em;
+    color: rgb(59,96,255);
+
+ }
+
+ .img-trainer1{
+     position: absolute;
+     height: 400px ;
+     width: 300px;
+     border-radius: 5px;
+     margin-top: 110px;
+     margin-left: 900px;
+     animation-name: img-trainer;
+     animation-duration: 4s;
+ }
+
+ .explanation-trainer1{
+     font-size: large;
+     margin-top: 160px;
+     position: absolute;
+      padding: 18px;
+     width: 230px;
+     margin-left: 580px;
+     box-shadow: 4px 4px 4px;
+     border-radius: 5px;
+     border-radius: 3px;
+     background-color: rgba(110, 109, 109, 0.322);
+     animation-name:  explanation-trainer1 ;
+     animation-duration: 4s;
+ }
+ 
+ .review-header{
+     margin-top: 110px;
+     position: absolute;
+    font-weight: bolder;
+    font-family: 'League Gothic';
+    font-size: 2.5em;
+    margin-left: 32px;
+    
+    animation-name: review-header;
+    animation-duration: 8s;
+     
+     
+    
+
+ }
+ .review-content{
+     background-color: rgba(110, 109, 109, 0.322);
+     margin-top: 160px;
+     margin-left: 20px;
+     position: absolute;
+     border-radius: 5px;
+     font-size: 20px;
+     box-shadow: 5px 5px 5px;
+     width: 220px;
+     height: 170px;
+     padding: 20px;
+      font-style: oblique;
+      animation-name: review-content;
+      animation-duration: 9s;
+    
+   
+ }
+ .review-content2{
+     margin-top: 160px;
+     margin-left: 300px;
+     position: absolute;
+     font-size: 20px;
+     width: 190px;
+     height: 320px;
+     border-radius: 5px;
+     box-shadow: 5px 5px 5px;
+     padding: 20px;
+     background-color: rgba(110, 109, 109, 0.322);
+     font-style: oblique;
+     animation-name: review-content;
+     animation-duration: 9s;
+    
+     
+ }
+
+
+
+ .review-name{
+     font-style: oblique;
+     font-size: 2em;
+ }
+
+
+.section2{
+    margin-top: 630px;
+    padding: 45px;
+}
+
+
+
+.p-section2{
+    font-size: 25px;
+    
+}
+
+.inner-section2{
+    margin-left: 55px;
+    border: 3px;
+     padding: 60px 80px ;
+    border-radius: 3px;
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 15%);
+}
+
+.input-section2{
+    height: 30px;
+    width: 190px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+
+}
+
+.submit{
+    width: 90px;
+    height: 50px;
+    border-radius: 3px;
+
+}
+
+textarea{
+    font-size: 23px;
+    border-radius: 5px; 
+    box-shadow: 3px 3px 3px;
+}
+
+footer{
+     background-color: rgb(245, 241, 241);
+    width: 95%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+
+ @keyframes img-trainer{
+    from{margin-left:-300px;}
+    to{margin-left:900px;}
+ }
+
+ @keyframes explanation-trainer1{
+     0%{margin-left: -700px;}
+     100%{margin-left:480px}
+ }
+
+ 
+ 
+@keyframes review-header{
+    0%{opacity:0;}
+    70%{opacity: 0;}
+     100%{opacity:1;}
+     
+}
+
+ @keyframes review-content{
+     0%{opacity:0;}
+     80%{opacity: 0;}
+     100%{opacity:1;}
+ }

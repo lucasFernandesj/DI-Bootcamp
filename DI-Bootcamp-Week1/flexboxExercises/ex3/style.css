@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    border: 3px solid orange;
+    width: 90%;
+    height: 200px;
+    padding: 15px;
+}
+
+.inner{
+    display: flex;
+    color: white;
+    
+    justify-content: center;
+}
+.logo{
+    background-color: rgb(252, 173, 252);
+    /* flex-grow: 1; */
+    width: 10%;
+
+}
+
+.team{
+    background-color: aqua;
+    width: 45%;
+}
+
+
+.products{
+   
+   background-color: tomato;
+    width: 45%;
+}

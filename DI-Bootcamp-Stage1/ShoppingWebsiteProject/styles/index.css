@@ -1,0 +1,64 @@
+body{
+     background-image: url('../media/indexBackground3.jpg');
+         background-size: cover;
+ background-repeat: no-repeat;
+  padding: 0px;
+    margin: 0;
+    max-width: 100%;
+     overflow: hidden
+}
+nav{
+    height: 50px;
+    
+}
+
+.link:visited{
+   color: inherit; 
+   
+    
+  
+}
+
+.links-container{
+     margin-top: 10px;
+    margin-left: 830px;
+    
+}
+
+.link{
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.link:visited{ 
+    text-decoration: none;
+    color: white; 
+    
+ }
+
+
+
+
+.img{
+    float: left;
+}
+.img-nav{
+    height: 40px;
+    width: 60px;
+    display: inline-block;
+    
+}
+
+
+.footer{
+    text-align: center;
+    margin-top: 450px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+}
