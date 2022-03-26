@@ -112,14 +112,16 @@ function calculateMoney(amountOfChange){
 
 
 //EX6
-const hotelCost =()=>{
-    var nights = +prompt('For how many nights are you gonna stay?')
-    if(nights === '' || isNaN(nights)){
-        var nights = +prompt('For how many nights are you gonna stay?')
-    }
-    var cost = nights*140
-    return cost
+const hotelCost = () => {
+  let nights = +prompt('For how many nights are you gonna stay?')
+
+  if (nights < 0 || isNaN(nights)) {
+    hotelCost()
+  }
+  var cost = nights * 140
+  return cost
 }
+
 
 function planeRideCost(){
     var destination = prompt('Where are you flying to?')
