@@ -1,6 +1,6 @@
-var btns = document.getElementsByClassName('btn')
-var display = ''
-for (var i = 0; i < btns.length; i++) {
+let btns = document.getElementsByClassName('btn')
+let display = ''
+for (let i = 0; i < btns.length; i++) {
   let curr = btns[i]
   curr.addEventListener('click', () => {
     let currText = curr.innerText
@@ -11,6 +11,7 @@ for (var i = 0; i < btns.length; i++) {
     }
     if (currText === '=') {
       let res = eval(display)
+     
 
       document.querySelector('.display').innerText = res
       display = res
