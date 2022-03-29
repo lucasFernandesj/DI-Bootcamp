@@ -1,0 +1,51 @@
+/* .board{
+    
+    width: 100%;
+} */
+
+td ,  tr{
+    border: 1px solid black;
+    height: 10px;
+ width: 10px;
+}
+
+.colors{
+    background-color:grey;
+    
+    top: 300px;
+    height: 480px;
+    width: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapp-div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.colorDiv{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    
+
+}
+
+.board{
+    display: flex;
+    border:1px solid  red;
+    flex-wrap: wrap;
+    width: 870px;
+}
+.cell{
+     border: 1px solid black;
+    height: 10px;
+ width: 10px;
+ margin: 0px;
+ 
+ 
+}
