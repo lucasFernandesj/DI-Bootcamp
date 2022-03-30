@@ -1,4 +1,6 @@
 document.querySelector('.btn').addEventListener('click' , ()=>{
+    
+    console.log('reached here')
     let str = document.querySelector('#text').value 
     let xhr = new XMLHttpRequest()
     xhr.open(
