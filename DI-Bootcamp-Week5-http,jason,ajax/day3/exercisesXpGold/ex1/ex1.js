@@ -5,16 +5,16 @@ const urls = [
   'https://swapi.dev/api/people/4',
 ]
 
-urls.map((element)=>{
-fetch(element)
-.then(res =>{
-    return res.json()
-})
-.then(data=>{
-    console.log(data.name)
-})
+// urls.map((element)=>{
+// fetch(element)
+// .then(res =>{
+//     return res.json()
+// })
+// .then(data=>{
+//     console.log(data.name)
+// })
 
-})
+// })
 
 // async function fetchAll() {
 //   const results = await Promise.all(
@@ -39,3 +39,8 @@ fetch(element)
 //   })
 //   )
 
+ Promise.all(urls.map(urls=>{
+  return fetch(urls).then(response =>response.json())
+ })).then(data=>data.forEach((value)=>{
+   console.log(value.name)
+ }))
