@@ -15,5 +15,4 @@ async function asyncCall() {
 
 asyncCall()
 
-//calling
-//resolved
+
