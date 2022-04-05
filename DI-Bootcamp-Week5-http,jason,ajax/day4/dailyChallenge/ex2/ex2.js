@@ -4,19 +4,30 @@
 
 
 
-function get(){
+async function get(){
     let lat2 = document.getElementById('lat2').value
     let lng2 = document.getElementById('lng2').value
-console.log('lat2: '+lat2)
-console.log('lng2: ' + lng2)
-    // let res = fetch(`https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lng}`)
-    let res2 = fetch(`https://api.sunrise-sunset.org/json?lat=${lat2}&lng=${lng2}`)
-    .then((data) => data.json())
-    .then((response)=>console.log(response))
+
+        try{
+
+            // let res = fetch(`https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lng}`)
+            let res2 = await fetch(`https://api.sunrise-sunset.org/json?lat=${lat2}&lng=${lng2}`)
+            const data = await res2.json()
+            const response = await data.results.sunrise
+            console.log(response)
+        }catch(error){
+            console.log('CATCHED' + error)
+        }
+
+
+    // .then((data) => data.json())
+    // .then((response)=>console.log(response.results.sunrise))
     
     
     
     
     // Promise.all([res,res2])
-    
+   
 }
+
+
