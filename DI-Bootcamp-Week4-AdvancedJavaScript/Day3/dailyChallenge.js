@@ -25,3 +25,4 @@ const getCarHonda = (carInventory) =>{
 inventory.sort((a, b)=>{
     return a.car_year - b.car_year
 })
+console.log(inventory)
