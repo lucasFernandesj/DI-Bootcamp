@@ -1,0 +1,37 @@
+body{
+   
+    margin: 0px;
+    background-image: url(media/circuit-pattern.png);
+}
+nav{
+    background-color: green;
+    height: 27px;
+    padding:8px;
+    
+}
+
+#text{
+    height: 20px;
+    width: 470px;
+    margin-left: 30px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.robotImg{
+    border-radius: 50%;
+
+}
+
+.robotDiv{
+    background-color: rgb(79, 193, 197);
+    margin: 10px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+}
