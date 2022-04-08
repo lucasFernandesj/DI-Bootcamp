@@ -1,3 +1,7 @@
+
+
+
+
 const robots = [
   {
     id: 1,
@@ -73,11 +77,6 @@ const robots = [
 
 
 
-  document.body.onload = () => {
-    robots.forEach((element) => {
-        render(element)
-    })
-  }
 
 
 
@@ -108,3 +107,13 @@ const render = (el) =>{
      robotDiv.append(robotImg, robotH1, robotP)
      document.querySelector('.container').appendChild(robotDiv)
 }
+
+
+
+ 
+    robots.forEach((element) => {
+      render(element)
+    })
+  
+
+  
