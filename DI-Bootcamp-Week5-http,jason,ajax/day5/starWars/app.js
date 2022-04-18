@@ -4,6 +4,10 @@ document.querySelector('.btn').addEventListener('click' , async()=>{
     let currChar;
     try{
         const res = await fetch('https://www.swapi.tech/api/people/');
+        if(res.status !==200){
+            throw new Error('Something went wrong')
+            console.log('Error Thrown')
+        }
         const resFinal = await res.json();
         const arrChar = resFinal.results
         console.log(arrChar)
