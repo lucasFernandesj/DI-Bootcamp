@@ -2,15 +2,15 @@ const express = require('express')
 const app = express() 
 
 
-const user = {
-    firstname: 'John',
-    lastname: 'Doe'
-}
 
-// app.get('/' , (req , res)=>{
-//     res.json(user)
+app.get('/users' , (req , res)=>{
+    const user = {
+        firstname: 'John',
+        lastname: 'Doe'
+    }
+    res.json(user)
     
-// })
+})
 
 
 //exercise 2
