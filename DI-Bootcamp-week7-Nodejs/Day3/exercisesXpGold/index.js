@@ -73,39 +73,7 @@ app.post('/items' , (req , res, next)=>{
    
 })
 
-// app.post('/items' , (req , res)=>{
-//     fs.readFileSync('shoppingList.json','utf8',(err , data)=>{
-//         if(err){
-//             console.log(err)
-//         }
-//         let arr = JSON.parse(data)
-//         let name = req.body.name
-//         let price = Number(req.body.price)
-//         let obj = {
-//             id:arr.length,
-//             name:name,
-//             price:price
-//         }
-//         // console.log(obj)
 
-//         arr.push(obj)
-//         // console.log(arr)
-//         let updatedArr = JSON.stringify(arr,null,2) 
-//         // console.log(updatedArr)
-//         fs.writeFileSync('./shoppingList.json' , updatedArr , (err)=>{
-//             console.log('line 73')
-//             if(err){
-//                 console.log('line 75 ENTERED IF')
-//                 console.log(err)
-//                 console.log('line 77 END OF IF')
-//             }
-//             console.log('line 79 after if')
-//         })
-//         console.log('line 81 OUT OF WRITE FILE')
-//     })
-//         console.log('line 83 OUTOF READFILE')
-
-// })
 
 
 app.listen(3000)
