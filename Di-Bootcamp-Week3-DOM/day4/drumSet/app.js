@@ -1,0 +1,3 @@
+function playit() {
+    this.play()
+}
